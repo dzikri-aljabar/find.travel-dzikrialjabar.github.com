@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ece9e5;
+    width: 100%;
+    padding: 20px 5%;
+    
+}
+
+section {
+    padding-top: 87px;
+}
+
+.logo {
+    color: #0766AD;
+}
+
+.travel {
+    color: #FF9209;
+}
+
+.navbar {
+    color: #0766AD;
+    text-decoration: none;
+    margin-left: 20px;
+    font: bold;
+    font-weight: bold;
+}
+
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 9%;
+    gap: 15px;
+}
+
+.judul1-content1 {
+    font-size: 25px;
+}
+
+.judul2-content1 {
+    color: #a7a3a3d0;
+    font-size: 13px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 47rem;
+    margin-top: 2%;
+}
+
+.ulasan {
+    margin-left: 5%;
+}
+
+.bannerSlide {
+    max-width: 57%;
+    border-radius: 10px;
+    border-width: 0.01px;
+    border-style: solid;
+    border-color: rgb(114, 112, 112);
+}
+
+.komentar {
+    margin: 3px 3%;
+    font-style: italic;
+    color: #969594;
+}
+
+.ulasan-profil {
+    display: flex;
+    background-color: #ece9e5;
+    border-radius: 10px;
+    margin-right: 60%;
+    padding-bottom: 10px;
+}
+
+.username {
+    margin-top: 15px;
+    margin-left: -8px;
+}
+
+.alamat-sri {
+    margin-top: 28px;
+    margin-left: -59px;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.man1 {
+    width: 30px;
+    height: 30px;
+    margin: 3px 3%;
+    margin-top: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e6e6e6be;
+    border-width: 0.01px;
+    border-style: solid;
+    border-color: #302d2d;
+    width: 500px;
+    height: 450px;
+    margin-right: 5%;
+    border-radius: 10px;
+    gap: 12px;
+    padding: 10px 50px;
+}
+
+.judul-contact {
+    font-size: 23px;
+}
+
+#name {
+    width: 230px;
+    height: 38px;
+}
+
+#email {
+    width: 230px;
+    height: 38px;
+}
+
+#interested {
+    width: 230px;
+    height: 38px;
+}
+
+.btn-send {
+    width: 230px;
+    height: 38px;
+    background: #1dbf73;
+    color: #FAF6F0;
+    height: 47px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    border-color: #fff;
+}
+
+.error-text {
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #f74040;
+    display: none;
+}
+
+.benefit {
+    margin-left: -64%;
+    margin-top: -26%;
+}
+
+.daftar {
+    list-style: none;
+}
+
+.benefit ul li .angka-benefit {
+    display: inline-block;
+    background-color: rgb(219, 164, 45);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+#our-package {
+    margin-top: 20%;
+}
+
+.package {
+    background-color: #ece9e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.content-paket {
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    height: 40%;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: #0766AD;
+    border-style: solid;
+    gap: 10px;
+}
+
+.nomor-paket {
+    background-color: #0766AD;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: #FF9209;
+    border-style: solid;
+    margin-bottom: 15px;
+
+}
+
+.nomor {
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.content-fotter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+    margin-top: 7%;
+    gap: 13px;
+}
+
+.content-fotter>h1 {
+    color: #0766AD;
+    font-size: 50px;
+}
+
+.ucapan-penutup {
+    text-align: center;
+    width: 50%;
+}
+
+.btn-hubungi {
+    width: 20%;
+    height: 35px;
+}
+
+.fotter {
+    background-color: #ece9e5;
+    width: 100%;
+    padding: 35px 5%;
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotter>h1 {
+    color: #0766AD;
+}
+
+.fotter>p {
+    color: #9e9a9a;
+}
+
+@media screen and (min-width: 550px) {
+    
+}

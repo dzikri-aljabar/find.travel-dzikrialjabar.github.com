@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find.travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Find.<span class="travel">travel</span></h1>
+        </div>
+        <nav>
+            <a class="navbar" href="#Home">Home</a>
+            <a class="navbar" href="#our-package" onclick="scrollToTop('element1')">Our Package</a>
+            <a class="navbar" href="#call-us">Call Us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Home">
+            <h3 class="judul1-content1">Your Trusted Travel Agents</h3>
+            <h5 class="judul2-content1">Your happiness is our happiness</h5>
+            <div class="content1">
+                <div class="ulasan">
+                    <img class="bannerSlide" src="assets/solo-traveling.png">
+                    <p class="komentar">"Liburan bersama keluarga menjadi tenang,<br> karena menggunakan find.travel"
+                    </p>
+                    <div class="ulasan-profil">
+                        <img class="man1" src="assets/man1.jpg">
+                        <h6 class="username">Sri Rahayu</h6>
+                        <p class="alamat-sri">Jl. Pahlawan no.36</p>
+                    </div>
+                </div>
+                <form class="content-form">
+                    <h4 class="judul-contact">Contact Us</h4>
+                    <p>Sales akan menghubungi anda 1x24 <br> jam setelah data kami terima.</p>
+                    <label for="name">
+                        <h6>Your Name :</h6>
+                    </label>
+                    <input type="text" id="name" placeholder="  First and Last name">
+                    <label for="email">
+                        <h6>Email Address :</h6>
+                    </label>
+                    <input type="text" id="email" placeholder=" example@gmail.com">
+                    <label for="interested">
+                        <h6>What are you interested in?</h6>
+                    </label>
+                    <select name="interested" id="interested">
+                        <optgroup label="Select option" class="select-option">
+                            <option value="Pariwisata">Pariwisata</option>
+                            <option value="Ziaroh">Ziaroh</option>
+                            <option value="StudyTour">StudyTour</option>
+                        </optgroup>
+                    </select>
+                    <span class="error-text">Harap di isi semua!!</span>
+                    <button class="btn-send">SEND</button>
+                </form>
+            </div>
+            <div class="benefit">
+                <h4>Fasilitas yang akan anda dapatkan :</h4>
+                <ul>
+                    <li class="daftar"><span class="angka-benefit">1</span> Toilet</li>
+                    <li class="daftar"><span class="angka-benefit">2</span> Wifi</li>
+                    <li class="daftar"><span class="angka-benefit">3</span> TV</li>
+                    <li class="daftar"><span class="angka-benefit">4</span> Rest Area</li>
+                    <li class="daftar"><span class="angka-benefit">5</span> dll.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="our-package">
+            <header class="package">
+                <h1>Paket Kami</h1>
+            </header>
+            <div class="content-paket">
+                <div class="card">
+                    <div class="nomor-paket">
+                        <h1 class="nomor">1</h1>
+                    </div>
+                    <h3 class="judul-paket">Raja Ampat</h3>
+                    <p class="keterangan-paket">Ambil paket Pariwisata, untuk menikmati harimu di Raja Ampat.</p>
+                </div>
+                <div class="card">
+                    <div class="nomor-paket">
+                        <h1 class="nomor">2</h1>
+                    </div>
+                    <h3 class="judul-paket">Labuan Bajo</h3>
+                    <p class="keterangan-paket">Ambil paket Pariwisata, bersama keluarga menikmati keindahan Labuan Bajo
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="nomor-paket">
+                        <h1 class="nomor">3</h1>
+                    </div>
+                    <h3 class="judul-paket">Bali</h3>
+                    <p class="keterangan-paket">Ambil paket StudyTour, dan nikmati perjalananmu bersama kawan-kawan di
+                        Bali</p>
+                </div>
+                <div class="card">
+                    <div class="nomor-paket">
+                        <h1 class="nomor">4</h1>
+                    </div>
+                    <h3 class="judul-paket">Yogyakarta</h3>
+                    <p>Ambil paket StudyTour, dan nikmati perjalananmu bersama kawan-kawan di Jogja</p>
+                </div>
+                <div class="card">
+                    <div class="nomor-paket">
+                        <h1 class="nomor">5</h1>
+                    </div>
+                    <h3 class="judul-paket">Ziarah Wali Sogo</h3>
+                    <p class="keterangan-paket">Ambil paket Ziarah, untuk medapatkan keberkahan di setiap makam yang
+                        anda kunjungi.</p>
+                </div>
+                <div class="card">
+                    <div class="nomor-paket">
+                        <h1 class="nomor">6</h1>
+                    </div>
+                    <h3 class="judul-paket">Ziarah++</h3>
+                    <p class="keterangan-paket">Ambil paket Ziarah++, untuk medapatkan keberkahan dan dilanjutkan dengan
+                        berlibur.</p>
+                </div>
+            </div>
+        </section>
+        <section id="call-us">
+            <div class="content-fotter">
+                <h1>Call-Us</h1>
+                <p class="ucapan-penutup">Terimakasih telah mengunjungi agen travel kami. Semoga anda bisa menikmati
+                    perjalanan anda. dan jangan lupa untuk membagikan pengalaman anda bersama kami kepada teman anda.
+                </p>
+                <button class="btn-hubungi">Hubungi Kami</button>
+                <div class="fotter">
+                    <h1>Find.<span class="travel">travel</span></h1>
+                    <p>Copyright&copy;find.travel-Dzikri Aljabar AllRight Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="javascript/script.js"></script>
+</body>
+
+</html>
